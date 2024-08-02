@@ -1,0 +1,171 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+
+img{
+    max-width: 100%;
+}
+
+.container{
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.promo{
+    background-color: #141024;
+    height: 1200px;
+    padding: 25px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 131px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+.promo_h1_img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 28px;
+}
+
+.text_1 h1 {
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 112px;
+    text-align: left;
+    color: white;
+    
+}
+
+.text_1 p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: left;
+    color: white;
+}
+
+.img_girl_promo img{
+    width: 783px;
+    height: 917px;
+    
+}
+
+.btn{
+    width: 260px;
+    height: 79px;
+    background-color: #D52027;
+    color: white;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+.img_girl_promo{
+    width: 783px;
+}
+
+.description {
+    margin: 120px 50px;
+}
+
+.description p{
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: 400;
+    color: #141024;
+}
+
+.experience{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 150px;
+}
+
+.experience p{
+    font-size: 70px;
+    line-height: 112px;
+    font-weight: 600;
+    color: #D52027;
+    margin-left: 40px;
+}
+
+.experience_2{
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+}
+
+.experience_2 p{
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #141024;
+    margin-left: 40px;
+}
+
+.worker {
+    margin: 105px;
+    padding-left: 70px;
+}
+
+.worker p{
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 600;
+    color: #141024;
+}
+
+.box{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.item_1 h1{
+    margin-top: 20px;
+}
+
+.item_2 h1{
+    margin-top: 20px;
+}
+
+.item_3 h1{
+    margin-top: 20px;
+}
+
+.end{
+    background-color: #141024;
+    padding: 25px 0;
+    height: 159px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
